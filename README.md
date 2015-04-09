@@ -3,12 +3,12 @@
 `inline_visitor` is a lightweight C++11 utility that localises the visitation
 of `Boost.Variant` objects, leveraging the power of C++11's lambdas against
 the robust machinery of `Boost.Variant`. Using this header, you can visit
-`boost::variant` objects "inline" without having to declare a verbose and
-cumbersome `static_visitor`.
+`boost::variant` objects "inline" without having to use the verbose and
+cumbersome `static_visitor` idiom explicitly.
 
 ### Installation
 
-Simply copy the file `inline_visitor.hpp` into the folder of your project or
+Simply copy the file `inline_visitor.hpp` into your project directory or
 anywhere on your compiler's include path. A C++11 capable compiler is required.
 
 ### Usage
