@@ -36,4 +36,4 @@ visitor.apply(variant); // true
 ### Author and acknowledgements
 
 Andrew Hutchison (andrew@andrewhutchison.net). I was partly inspired to make
-this after encountering [this question](stackoverflow.com/questions/7867555) on Stack Overflow.
+this after encountering [this question](http://stackoverflow.com/questions/7867555) on Stack Overflow.
