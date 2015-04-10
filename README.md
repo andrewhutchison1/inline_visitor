@@ -1,6 +1,6 @@
 # inline_visitor
 
-`inline_visitor` is a lightweight C++11 utility that localises the visitation
+`inline_visitor` is a lightweight C++11 utility that localises the **static** visitation
 of `Boost.Variant` objects, leveraging the power of C++11's lambdas against
 the robust machinery of `Boost.Variant`. Using this header, you can visit
 `boost::variant` objects "inline" without having to use the verbose and
@@ -36,4 +36,5 @@ visitor.apply(variant); // true
 ### Author and acknowledgements
 
 Andrew Hutchison (andrew@andrewhutchison.net). I was partly inspired to make
-this after encountering [this question](http://stackoverflow.com/questions/7867555) on Stack Overflow.
+this after encountering [this question](http://stackoverflow.com/questions/7867555) 
+on Stack Overflow.
