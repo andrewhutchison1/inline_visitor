@@ -13,7 +13,7 @@ anywhere on your compiler's include path. A C++11 capable compiler is required.
 
 ### Usage
 
-```
+```cpp
 boost::variant<int, std::string> variant{"Hello"s};
 
 // We can create the visitor and apply it at the same time:
